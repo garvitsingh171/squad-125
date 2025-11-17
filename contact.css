@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #3e3e3f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: grey;
+  color: #e2e8f0;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.team-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: grey;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.role {
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  display: block;
+  margin: 6px 0;
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
