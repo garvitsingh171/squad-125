@@ -1,0 +1,86 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f5f9ff;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+    color: #203a52;
+}
+
+.mentor-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.mentor-card {
+    width: 200px;
+    background: white;
+    padding: 200px;
+    border-radius: 15px;
+    border: 1px solid #fabad3;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 8px rgba(150, 180, 255, 0.15);
+}
+
+.mentor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(180, 50, 50, 0.2);
+}
+
+.mentor-img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mentor-name {
+    font-size: 50px;
+    margin: 10px 0 5px;
+    color: plum;
+}
+
+.mentor-role {
+    color: #fe63c0;
+    margin-bottom: 12px;
+}
+
+.mentor-speciality {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.mentor-speciality li {
+    background: #eaf0ff;
+    padding: 6px;
+    margin: 4px 0;
+    border-radius: 8px;
+    font-size: 13px;
+    color: pink;
+}
+
+.mentor-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 12px;
+    background: pink;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.mentor-links a:hover {
+    background: palevioletred;
+}
