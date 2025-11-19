@@ -212,7 +212,7 @@ body {
   border-bottom: 1px solid black;
   box-sizing: border-box;
   border-left: 1px solid black;
-  
+  text-transform: uppercase;
 }
 
 .title2 {
@@ -266,6 +266,7 @@ body {
   box-sizing: border-box;
   border-left: 1px solid black;
   border-right: solid black;
+  text-transform: uppercase;
 }
 
 .title3 {
@@ -322,6 +323,7 @@ body {
   border-bottom: 1px solid black;
   box-sizing: border-box;
   border-left: 1px solid black;
+  text-transform: uppercase;
   
 }
 
