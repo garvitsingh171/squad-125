@@ -32,6 +32,21 @@
     <section class="team-section">
         <h2 class="section-title">Our Squad</h2>
 
+        <!-- Controls: search and sort (placed below the title, outside the title element) -->
+        <div class="controls" aria-label="Search and sort team members">
+            <div class="search-wrapper">
+                <input id="searchInput" class="search-input" type="search" placeholder="Search by name..." aria-label="Search by name">
+            </div>
+            <div class="sort-wrapper">
+                <label for="sortSelect" class="visually-hidden">Sort members</label>
+                <select id="sortSelect" class="sort-select" aria-label="Sort members">
+                    <option value="none">Sort</option>
+                    <option value="asc">A → Z</option>
+                    <option value="desc">Z → A</option>
+                </select>
+            </div>
+        </div>
+
         <div class="team-container">
 
             <div class="card">
@@ -173,6 +188,7 @@
             </div>
         </div>
     </footer>
+</n>    <script src="contact.js"></script>
 
-</body>
+
 </html>
