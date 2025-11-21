@@ -3,10 +3,10 @@
 //   const sortSelect = document.getElementById("sortSelect");
 //   const container = document.querySelector(".team-container");
 
-//   function getNameFromCard(card) {
-//     const h3 = card.querySelector("h3");
-//     return h3 ? h3.textContent.trim() : "";
-//   }
+  // function getNameFromCard(card) {
+  //   const h3 = card.querySelector("h3");
+  //   return h3 ? h3.textContent.trim() : "";
+  // }
 
 //   function filterCards() {
 //     const query = searchInput.value.trim().toLowerCase();
@@ -52,3 +52,8 @@
 
 //   sortCards("asc");
 // });
+
+function togglePopup(btn) {
+  let pop = btn.parentElement.querySelector(".popup");
+  pop.classList.toggle("show");
+}
